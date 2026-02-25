@@ -114,5 +114,63 @@ body{
     display: none;
 }
 
+ ====== FULL RESPONSIVE FIX ====== 
 
+@media screen and (max-width: 768px){
+
+    .card{
+        width: 95%;
+        height: auto;
+        margin: 30px auto;
+        padding: 25px 15px;
+    }
+
+    .search{
+        flex-direction: row;
+    }
+
+    .search input{
+        width: 100%;
+        font-size: 16px;
+        height: 45px;
+        padding: 10px 15px;
+    }
+
+    .search button{
+        width: 45px;
+        height: 45px;
+    }
+
+    .search button img{
+        width: 20px;
+    }
+
+    .weather-icon{
+        width: 120px;
+    }
+
+    .weather h1{
+        font-size: 45px;
+    }
+
+    .weather h2{
+        font-size: 24px;
+    }
+
+    .detail{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .col{
+        justify-content: center;
+    }
+
+    .humidity,
+    .wind{
+        font-size: 20px;
+    }
+}
    
+
